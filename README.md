@@ -1,3 +1,5 @@
+### This is only for predator prey version of grid world. Do not use for SMAC env.
+
 # Weighted QMIX: Expanding Monotonic Value Function Factorisation (NeurIPS 2020)
 
 Based on PyMARL (https://github.com/oxwhirl/pymarl/). Please refer to that repo for more documentation.
