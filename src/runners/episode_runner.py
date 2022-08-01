@@ -113,6 +113,10 @@ class EpisodeRunner:
             if hasattr(self.mac.action_selector, "epsilon"):
                 self.logger.log_stat("epsilon", self.mac.action_selector.epsilon, self.t_env)
             self.log_train_stats_t = self.t_env
+            if hasattr(self.mac.agent, 'risk_level'):
+                print(True)
+                self.logger.log_stat("risk_level", self.mac.agent.risk_level, self.t_env)
+            self.log_train_stats_t = self.t_env
 
         return self.batch
 

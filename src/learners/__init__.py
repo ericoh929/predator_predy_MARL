@@ -1,5 +1,6 @@
 from .q_learner import QLearner
 from .coma_learner import COMALearner
+from .iqn_learner import IQNLearner
 from .qtran_learner import QLearner as QTranLearner
 from .max_q_learner import MAXQLearner
 from .max_q_learner_ddpg import DDPGQLearner
@@ -19,4 +20,5 @@ REGISTRY["sac"] = SACQLearner
 REGISTRY["ddpg"] = DDPGQLearner
 REGISTRY["qatten_learner"] = QattenLearner
 REGISTRY["dmaq_qatten_learner"] = DMAQ_qattenLearner
+REGISTRY["iqn_learner"] = IQNLearner
 
